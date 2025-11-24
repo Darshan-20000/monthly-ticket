@@ -278,7 +278,7 @@ a.back-font {
         .container-new {
             width: 100vw;
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
         }
 
         .subContainer {
@@ -301,8 +301,9 @@ a.back-font {
         .header {
             display: flex;
             align-items: center;
-            justify-content: center;
+            justify-content: space-between;
             position: relative;
+            width: 100%;
         }
 
         .header img {
@@ -312,10 +313,24 @@ a.back-font {
             cursor: pointer;
         }
 
+        .left-icon {
+            width: 24px;
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        
+        .right-empty {
+            width: 24px; /* same width as icon to balance center */
+        }
+
         .header h2 {
+            flex: 1;
             font-size: 14px;
             margin: 0;
             font-family: "SF Pro Display";
+            align-self: center;
+            text-align: center;
         }
 
         /* CARD */
@@ -438,14 +453,17 @@ a.back-font {
             height: 4px;
             background: #E3E3E3;
             border-radius: 10px;
+             overflow: hidden;
         }
 
         .progress-fill {
-            width: 70%;
+            width: 0%;
             height: 100%;
             background: #1D86D7;
             border-radius: 10px;
+            transition: width 0.4s ease;
         }
+        
 
         .tap-to-enlarge-new {
             font-size: 12px;
