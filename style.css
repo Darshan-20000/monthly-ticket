@@ -283,9 +283,9 @@ a.back-font {
 
         .subContainer {
             width: 100vw;
-            height: 25vh;
+            height: 32vh;
             background: #1D86D7;
-            padding: 25px;
+            /* padding: 25px; */
             color: #fff;
             border-bottom-left-radius: 20px;
             border-bottom-right-radius: 20px;
@@ -304,6 +304,7 @@ a.back-font {
             justify-content: space-between;
             position: relative;
             width: 100%;
+            margin-top: 15px;
         }
 
         .header img {
@@ -359,6 +360,18 @@ a.back-font {
         .qr-inner {
             width: 145px;
             height: 145px;
+        }
+
+        .popupModal {
+            position: absolute;
+            transform: translate(-50%, -50%);
+            width: 100%;
+            background-color: rgb(255, 255, 255);
+            border: 2px solid rgb(204, 204, 204);
+            box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;
+            padding: 20px 20px 20px 487px;
+            height: 142%;
+            display: flex;
         }
 
         .tap {

@@ -164,6 +164,56 @@
             </div>
         </div>
     </div>
+    <div class="popupModal" id="popupModal">
+        <!-- style="position: fixed;top: 19%;left: 52%;transform: translate(-50%, -50%);width: 100%;background-color: rgb(255, 255, 255);border: 2px solid rgb(204, 204, 204);box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;padding: 20px 20px 20px 487px;height: 142%;display: none;"> -->
+        <div class="top-section">
+            <div class="qr-box">
+                <!-- <div class="qr-inner"></div> -->
+                <div class="qr-inner">
+                    <a href="#" onclick="openPopup(); return false;">
+                        <img class="qr-code" src="qr.png" alt="QR Code">
+                    </a>
+                </div>
+            </div>
+
+            <div class="tap-to-enlarge-new">Tap to enlarge</div>
+
+            <div class="divider"></div>
+
+            <div class="interstate">INTERSTATE</div>
+
+            <div class="date-zone">
+                <div class="date-box" onclick="changeColor()">Nov<br>2025</div>
+                <div>
+                    <div class="overlay-new">
+                        <div class="top-zone" onclick="decreaseZone()"></div>
+                        <div class="bottom-zone" onclick="increaseZone()"></div>
+                    </div>
+                    <div class="zone-info">
+                        <p class="big">2</p>
+                        <p class="small">ZONE RIDE</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div>
+            <div class="color-strip">
+                <div class="color-block-new red"></div>
+                <div class="color-block-new green"></div>
+                <div class="color-block-new blue"></div>
+            </div>
+            <div class="bottom-section">
+                <div class="progress-bar">
+                    <div class="progress-fill"></div>
+                </div>
+            </div>
+
+            <div class="exp">Expires in 11 days.</div>
+            <div class="link">View Onboard Validator Instructions</div>
+        </div>
+    </div>
     </div>
 </body>
 
